@@ -5,17 +5,39 @@
  */
 package ru.smekto4ka.ui.panel;
 
+import ru.smekto4ka.service.GamiltonStructuring;
+import ru.smekto4ka.service.Structuring;
+import ru.smekto4ka.ui.omponent.GamePanel;
+import ru.smekto4ka.ui.omponent.MyPanel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import ru.smekto4ka.service.Game;
+
+
 /**
- *
  * @author smekto4ka
  */
 public class StartFrame extends javax.swing.JFrame {
+
 
     /**
      * Creates new form StartFrame
      */
     public StartFrame() {
         initComponents();
+        buildButton.addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+
+                jScrollPane1.setViewportView(new GamePanel(Integer.parseInt(xSpinner.getValue().toString()),
+                        Integer.parseInt(ySpinner.getValue().toString()),
+                        Integer.parseInt(sizeSpiner.getValue().toString())));
+            }
+        });
     }
 
     /**
@@ -26,68 +48,61 @@ public class StartFrame extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-        java.awt.GridBagConstraints gridBagConstraints;
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        startButton = new javax.swing.JButton();
+        buildButton = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        xSpiner = new javax.swing.JSpinner();
+        xSpinner = new javax.swing.JSpinner();
         jLabel3 = new javax.swing.JLabel();
-        ySpiner = new javax.swing.JSpinner();
+        ySpinner = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
+        sizeSpiner = new javax.swing.JSpinner();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(500, 400));
         setMinimumSize(new java.awt.Dimension(500, 400));
         setPreferredSize(new java.awt.Dimension(500, 400));
 
-        jPanel1.setLayout(new java.awt.GridBagLayout());
-
-        jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, new java.awt.GridBagConstraints());
-
-        jLabel5.setText("jLabel5");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        jPanel1.add(jLabel5, gridBagConstraints);
-
-        jLabel6.setText("jLabel6");
-        jPanel1.add(jLabel6, new java.awt.GridBagConstraints());
-
-        getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
-
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 10));
 
-        startButton.setText("Запуск");
-        jPanel2.add(startButton);
+        buildButton.setText("���������");
+        jPanel2.add(buildButton);
 
         jLabel2.setText("x");
         jPanel2.add(jLabel2);
 
-        xSpiner.setModel(new javax.swing.SpinnerNumberModel(4, 4, null, 1));
-        xSpiner.setToolTipText("x");
-        xSpiner.setMinimumSize(new java.awt.Dimension(50, 30));
-        xSpiner.setPreferredSize(new java.awt.Dimension(50, 30));
-        jPanel2.add(xSpiner);
+        xSpinner.setModel(new javax.swing.SpinnerNumberModel(4, 4, null, 1));
+        xSpinner.setToolTipText("x");
+        xSpinner.setMinimumSize(new java.awt.Dimension(50, 30));
+        xSpinner.setPreferredSize(new java.awt.Dimension(50, 30));
+        jPanel2.add(xSpinner);
 
         jLabel3.setText("y");
         jPanel2.add(jLabel3);
 
-        ySpiner.setModel(new javax.swing.SpinnerNumberModel(4, 4, null, 1));
-        ySpiner.setToolTipText("y");
-        ySpiner.setMinimumSize(new java.awt.Dimension(50, 30));
-        ySpiner.setPreferredSize(new java.awt.Dimension(50, 30));
-        jPanel2.add(ySpiner);
+        ySpinner.setModel(new javax.swing.SpinnerNumberModel(4, 4, null, 1));
+        ySpinner.setToolTipText("y");
+        ySpinner.setMinimumSize(new java.awt.Dimension(50, 30));
+        ySpinner.setPreferredSize(new java.awt.Dimension(50, 30));
+        jPanel2.add(ySpinner);
 
         jLabel1.setText("jLabel1");
         jPanel2.add(jLabel1);
 
+        sizeSpiner.setModel(new javax.swing.SpinnerNumberModel(6, 6, null, 1));
+        sizeSpiner.setMinimumSize(new java.awt.Dimension(50, 30));
+        sizeSpiner.setPreferredSize(new java.awt.Dimension(50, 30));
+        jPanel2.add(sizeSpiner);
+
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
+
+        jPanel3.setBackground(new java.awt.Color(200, 250, 200));
+        jPanel3.setLayout(new java.awt.GridBagLayout());
+        jScrollPane1.setViewportView(jPanel3);
+
+        getContentPane().add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -99,7 +114,7 @@ public class StartFrame extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -128,16 +143,15 @@ public class StartFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton buildButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JButton startButton;
-    private javax.swing.JSpinner xSpiner;
-    private javax.swing.JSpinner ySpiner;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSpinner sizeSpiner;
+    private javax.swing.JSpinner xSpinner;
+    private javax.swing.JSpinner ySpinner;
     // End of variables declaration//GEN-END:variables
 }
