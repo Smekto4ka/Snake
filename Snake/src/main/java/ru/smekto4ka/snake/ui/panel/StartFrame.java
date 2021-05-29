@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.smekto4ka.ui.panel;
+package ru.smekto4ka.snake.ui.panel;
 
-import ru.smekto4ka.service.GamiltonStructuring;
-import ru.smekto4ka.service.Structuring;
-import ru.smekto4ka.ui.omponent.GamePanel;
-import ru.smekto4ka.ui.omponent.MyPanel;
+import ru.smekto4ka.snake.ui.omponent.GamePanel;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import ru.smekto4ka.service.Game;
 
 
 /**

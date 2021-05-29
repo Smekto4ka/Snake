@@ -1,0 +1,109 @@
+loss: 0.0158        - accuracy: 0.9801 - val_loss: 0.0130 - val_accuracy: 0.9833
+
+loss: 0.0130        - accuracy: 0.9829 - val_loss: 0.0126 - val_accuracy: 0.9820
+
+loss: 0.0115        - accuracy: 0.9854 - val_loss: 0.0118 - val_accuracy: 0.9830
+
+loss: 0.0104        - accuracy: 0.9869 - val_loss: 0.0128 - val_accuracy: 0.9816
+
+loss: 0.0091        - accuracy: 0.9884 - val_loss: 0.0101 - val_accuracy: 0.9849
+
+loss: 0.0080        - accuracy: 0.9897 - val_loss: 0.0108 - val_accuracy: 0.9843
+
+loss: 0.0072        - accuracy: 0.9915 - val_loss: 0.0114 - val_accuracy: 0.9838
+
+loss: 0.0070        - accuracy: 0.9910 - val_loss: 0.0112 - val_accuracy: 0.9839
+
+loss: 0.0068        - accuracy: 0.9907 - val_loss: 0.0096 - val_accuracy: 0.9862
+
+loss: 0.0063        - accuracy: 0.9918 - val_loss: 0.0103 - val_accuracy: 0.9852
+
+loss: 0.0058        - accuracy: 0.9928 - val_loss: 0.0096 - val_accuracy: 0.9853
+
+loss: 0.0046        - accuracy: 0.9948 - val_loss: 0.0114 - val_accuracy: 0.9832
+
+loss: 0.0053        - accuracy: 0.9936 - val_loss: 0.0128 - val_accuracy: 0.9812
+
+loss: 0.0046        - accuracy: 0.9940 - val_loss: 0.0103 - val_accuracy: 0.9856
+
+loss: 0.0048        - accuracy: 0.9940 - val_loss: 0.0101 - val_accuracy: 0.9851
+
+loss: 0.0042        - accuracy: 0.9948 - val_loss: 0.0099 - val_accuracy: 0.9850
+
+loss: 0.0037        - accuracy: 0.9953 - val_loss: 0.0102 - val_accuracy: 0.9849
+
+loss: 0.0035        - accuracy: 0.9957 - val_loss: 0.0097 - val_accuracy: 0.9858
+
+loss: 0.0036        - accuracy: 0.9956 - val_loss: 0.0114 - val_accuracy: 0.9831
+
+loss: 0.0031        - accuracy: 0.9964 - val_loss: 0.0103 - val_accuracy: 0.9854
+
+loss: 0.0027        - accuracy: 0.9973 - val_loss: 0.0114 - val_accuracy: 0.9843
+
+loss: 0.0032        - accuracy: 0.9960 - val_loss: 0.0104 - val_accuracy: 0.9847
+
+loss: 0.0031        - accuracy: 0.9963 - val_loss: 0.0108 - val_accuracy: 0.9842
+
+loss: 0.0026        - accuracy: 0.9969 - val_loss: 0.0103 - val_accuracy: 0.9856
+
+loss: 0.0026        - accuracy: 0.9970 - val_loss: 0.0118 - val_accuracy: 0.9839
+
+loss: 0.0030        - accuracy: 0.9961 - val_loss: 0.0106 - val_accuracy: 0.9861
+
+loss: 0.0022        - accuracy: 0.9976 - val_loss: 0.0107 - val_accuracy: 0.9861
+
+loss: 0.0024        - accuracy: 0.9969 - val_loss: 0.0118 - val_accuracy: 0.9847
+
+loss: 0.0021        - accuracy: 0.9977 - val_loss: 0.0110 - val_accuracy: 0.9859
+
+loss: 0.0020        - accuracy: 0.9978 - val_loss: 0.0134 - val_accuracy: 0.9822
+
+loss: 0.0028        - accuracy: 0.9968 - val_loss: 0.0119 - val_accuracy: 0.9840
+
+loss: 0.0027        - accuracy: 0.9964 - val_loss: 0.0116 - val_accuracy: 0.9847
+
+loss: 0.0015        - accuracy: 0.9984 - val_loss: 0.0122 - val_accuracy: 0.9843
+
+loss: 0.0013        - accuracy: 0.9989 - val_loss: 0.0122 - val_accuracy: 0.9838
+
+loss: 0.0018        - accuracy: 0.9980 - val_loss: 0.0118 - val_accuracy: 0.9855
+
+loss: 0.0022        - accuracy: 0.9973 - val_loss: 0.0127 - val_accuracy: 0.9835
+
+loss: 0.0030        - accuracy: 0.9952 - val_loss: 0.0115 - val_accuracy: 0.9855
+
+loss: 0.0014        - accuracy: 0.9985 - val_loss: 0.0117 - val_accuracy: 0.9849
+
+loss: 0.0014        - accuracy: 0.9987 - val_loss: 0.0117 - val_accuracy: 0.9858
+
+loss: 0.0013        - accuracy: 0.9989 - val_loss: 0.0128 - val_accuracy: 0.9839
+
+loss: 0.0025        - accuracy: 0.9968 - val_loss: 0.0150 - val_accuracy: 0.9817
+
+loss: 0.0024        - accuracy: 0.9971 - val_loss: 0.0115 - val_accuracy: 0.9858
+
+loss: 9.9562e-04    - accuracy: 0.9993 - val_loss: 0.0115 - val_accuracy: 0.9852
+
+loss: 0.0015        - accuracy: 0.9985 - val_loss: 0.0116 - val_accuracy: 0.9860
+
+loss: 0.0014        - accuracy: 0.9985 - val_loss: 0.0120 - val_accuracy: 0.9851
+
+loss: 0.0017        - accuracy: 0.9982 - val_loss: 0.0122 - val_accuracy: 0.9848
+
+loss: 0.0020        - accuracy: 0.9977 - val_loss: 0.0138 - val_accuracy: 0.9835
+
+loss: 0.0022        - accuracy: 0.9971 - val_loss: 0.0118 - val_accuracy: 0.9860
+
+loss: 5.3269e-04    - accuracy: 0.9999 - val_loss: 0.0120 - val_accuracy: 0.9854
+
+loss: 6.7547e-04    - accuracy: 0.9995 - val_loss: 0.0129 - val_accuracy: 0.9857
+
+loss: 0.0021        - accuracy: 0.9975 - val_loss: 0.0121 - val_accuracy: 0.9846
+
+loss: 0.0018        - accuracy: 0.9977 - val_loss: 0.0128 - val_accuracy: 0.9842
+
+loss: 0.0013        - accuracy: 0.9983 - val_loss: 0.0129 - val_accuracy: 0.9842
+
+loss: 8.2352e-04    - accuracy: 0.9995 - val_loss: 0.0122 - val_accuracy: 0.9855
+
+loss: 5.8958e-04    - accuracy: 0.9996 - val_loss: 0.0144 - val_accuracy: 0.9828

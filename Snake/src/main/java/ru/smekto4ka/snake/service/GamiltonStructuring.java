@@ -1,6 +1,6 @@
-package ru.smekto4ka.service;
+package ru.smekto4ka.snake.service;
 
-import ru.smekto4ka.ui.omponent.MyPanel;
+import ru.smekto4ka.snake.ui.omponent.MyPanel;
 
 import javax.swing.*;
 import java.util.ArrayList;

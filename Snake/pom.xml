@@ -19,6 +19,14 @@
             </plugin>
         </plugins>
     </build>
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/batik/batik-util -->
+    <dependency>
+        <groupId>batik</groupId>
+        <artifactId>batik-util</artifactId>
+        <version>1.6-1</version>
+    </dependency>
+</dependencies>
 
 
 </project>

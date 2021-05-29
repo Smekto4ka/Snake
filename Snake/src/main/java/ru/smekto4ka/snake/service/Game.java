@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.smekto4ka.service;
+package ru.smekto4ka.snake.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-import ru.smekto4ka.data.Subject;
-import ru.smekto4ka.ui.omponent.MyPanel;
+import ru.smekto4ka.snake.data.Subject;
+import ru.smekto4ka.snake.ui.omponent.MyPanel;
 
 /**
  * @author �

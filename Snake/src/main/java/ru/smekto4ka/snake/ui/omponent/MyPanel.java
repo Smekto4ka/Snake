@@ -1,6 +1,6 @@
-package ru.smekto4ka.ui.omponent;
+package ru.smekto4ka.snake.ui.omponent;
 
-import ru.smekto4ka.data.Subject;
+import ru.smekto4ka.snake.data.Subject;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package ru.smekto4ka.data;
+package ru.smekto4ka.snake.data;
 
 import java.awt.*;
 

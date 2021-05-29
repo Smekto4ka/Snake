@@ -1,8 +1,8 @@
-package ru.smekto4ka.ui.omponent;
+package ru.smekto4ka.snake.ui.omponent;
 
-import ru.smekto4ka.service.Game;
-import ru.smekto4ka.service.GamiltonStructuring;
-import ru.smekto4ka.service.Structuring;
+import ru.smekto4ka.snake.service.Game;
+import ru.smekto4ka.snake.service.GamiltonStructuring;
+import ru.smekto4ka.snake.service.Structuring;
 
 import javax.swing.*;
 import java.awt.*;
